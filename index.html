@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  가져가실 때 reset이랑 bootstrap link랑 외부css 가져가시면 되요-->
+  <!--  reset-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--외부 css-->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <title>My first Web</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 shadow-lg sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand align-middle">
+        <h1 class="h3 m-0">
+         TOYBOX
+        </h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#top" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#intro" class="nav-link">
+              Intro
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./typing/typing.html" class="nav-link">
+              GAME1
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./FirstBingo/index.html" class="nav-link">
+              GAME2
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./SecondRPS/index.html" class="nav-link">
+              GAME3
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./UPDOWN_GAME/index.html" class="nav-link">
+              GAME4
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="top">
+    <div class="section-content overlay d-flex justify-content-center align-items-center">
+
+      <div class="container-xxl">
+        <div class="row align-items-center">
+          <div class="col-md-9 welcome">
+            <h1 class="welcome-title fw-light">이 사이트는 <span class="text-warning fw-bold">자바 스크립트 게임</span> 모음 사이트입니다.
+              타이핑 게임, 빙고 게임, 가위바위보 게임 3가지가 있습니다. </h1>
+
+            <div class="divider">
+
+            </div>
+            <div class="row welcome-desc">
+              <p class="col-sm-10 col-md-12 lead">Read more 저희 회사의 게임을 소개합니다.</p>
+              <p class="col-sm-2 col-md-12">
+                <a href="#intro" class="btn btn-primary">Read more</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro">
+    <div class="section-content">
+      <div class="container intro">
+        <div class="row align-items-center">
+          <div class="col-md-6 intro-first">
+            <div class="row px-md-3">
+
+              <div class="col-6">
+                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card first">
+                  <div
+                    class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg first">
+
+                    <h3 class="fw-light">
+                      <a href="typing/typing.html" class="link-light text-decoration-none">GAME1</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                  <div
+                    class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg second">
+                    <h3 class="fw-light">
+                      <a href="FirstBingo/index.html" class="link-light text-decoration-none">GAME2</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-6">
+                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                  <div
+                    class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg third">
+                    <h3 class="fw-light">
+                      <a href="SecondRPS/index.html" class="link-light text-decoration-none">GAME3</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                  <div
+                          class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg fourth">
+                    <h3 class="fw-light">
+                      <a href="SecondRPS/index.html" class="link-light text-decoration-none">GAME4</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6 d-md-block d-none intro-second">
+            <div class="game game1">
+            <h5 class="fw-light">GAME1!</h5>
+            <h1 class="mb-4">한글 타자 연습</h1>
+            <div class="intro-text">
+              <p class="lead">GAME1의 설명 Lorem ipsum dolor, si타자를 쳐보자t amet consectetur ad야옹야옹ipisicing elit. Cum recusandae praesentium
+                consectetur eum quis odit! Minima, eum non vero dolores adipisci quia sint voluptatem doloribus ullam
+                cum voluptas deserunt nostrum!</p>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae expedita veniam error
+                architecto est labore maiores distinctio, hic sint! Error.</p><a class=" btn btn-outline-success btn-lg" href="./typing/typing.html" role="button">GAME1</a>
+            </div>
+            </div>
+            <div class="game game2">
+              <h5 class="fw-light">GAME2!</h5>
+              <h1 class="mb-4">과일 빙고</h1>
+              <div class="intro-text">
+                <p class="lead">GAME2의 설명 Lor끝날때 까지 끝나지 않아요em ipsum dolor, sit amet co포도하고 ns오렌지ectetur adipisicing elit. Cum recusandae praesentium
+                  consectetur eum quis odit! Minima, eum non vero dolores adipisci quia sint voluptatem doloribus ullam
+                  cum voluptas deserunt nostrum!</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae expedita veniam error
+                  architecto est labore maiores distinctio, hic sint! Error.</p><a class=" btn btn-outline-danger btn-lg" href="./FirstBingo/index.html" role="button">GAME2</a>
+              </div>
+            </div>
+
+            <div class="game game3">
+              <h5 class="fw-light">GAME3!</h5>
+              <h1 class="mb-4">가위바위보</h1>
+              <div class="intro-text">
+                <p class="lead">GAME3의 설명 Lorem 안내면 진거ipsum dolor, sit amet consectetur adipisicing elit. Cum recusandae praesentium
+                  consectetur eum quis odit! Minima, eum non vero dolores adipisci quia sint voluptatem doloribus ullam
+                  cum voluptas deserunt nostrum!</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae expedita veniam error
+                  architecto est labore maiores distinctio, hic sint! Error.</p><a class=" btn btn-outline-primary btn-lg" href="./SecondRPS/index.html" role="button">GAME3</a>
+              </div>
+            </div>
+
+            <div class="game game4">
+              <h5 class="fw-light">GAME4!</h5>
+              <h1 class="mb-4">UPDOWN_GAME</h1>
+              <div class="intro-text">
+                <p class="lead">GAME4의 설명 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum recusandae praesentium
+                  consectetur eum quis odit! Minima, eum non vero dolores adipisci quia sint voluptatem doloribus ullam
+                  cum voluptas deserunt nostrum!</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae expedita veniam error
+                  architecto est labore maiores distinctio, hic sint! Error.</p><a class=" btn btn-outline-danger btn-lg" href="./UPDOWN_GAME/index.html" role="button">GAME4</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+  <footer>
+    <div class="inner clearfix">
+      <h2 class="ft-logo">TOYBOX</h2>
+      <ul class="address">
+        <li>Java 주말 단기 프로젝트</li>
+        <li class="en">Copyright 2022.</li>
+      </ul>
+      <ul class="list">
+        <li><a href="#">온라인 구매시스템</a></li>
+        <li><a href="#">고객문의</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">FAMILY SITE</a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- //footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

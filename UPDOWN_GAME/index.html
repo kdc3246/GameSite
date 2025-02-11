@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css 연결 -->
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- reset.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- main.css -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- js 연결 -->
+    <script src="app.js" defer></script>
+    
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 shadow-lg sticky-top">
+    <div class="container">
+        <a href="../index.html" class="navbar-brand align-middle">
+            <h1 class="h3 m-0">
+                TOYBOX
+            </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#intro" class="nav-link">
+                        Intro
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="typing/typing.html" class="nav-link">
+                        GAME1
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="FirstBingo/index.html" class="nav-link">
+                        GAME2
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="SecondRPS/index.html" class="nav-link">
+                        GAME3
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../UPDOWN_GAME/index.html" class="nav-link">
+                        GAME4
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+    <div class="wrapper">
+
+        <section class="main">
+            <h1 class="main-title">신나는 UP&DOWN 게임</h1>
+            <div class="number-wrapper">
+                <h2>
+                   <em id="begin">1</em>부터 <em id="end">100</em>사이의 숫자를 클릭하세요.
+                </h2>
+                <h2>
+                    <em id="count_down"></em>
+                     번 남았습니다.
+                </h2>
+                <div id="numbers"></div>
+            </div>
+        </section>
+
+        <aside class="result">
+            <div id="up">UP!!</div>
+            <div id="down">DOWN!!</div>
+        </aside>
+
+        <div id="finish">Congratulation!!!</div>
+        <div id="fail">실패하였습니다!!</div>
+
+    </div>
+<!-- footer -->
+<footer>
+    <div class="inner clearfix">
+        <h2 class="ft-logo">TOYBOX</h2>
+        <ul class="address">
+            <li>Java 주말 단기 프로젝트</li>
+            <li class="en">Copyright 2022.</li>
+        </ul>
+        <ul class="list">
+            <li><a href="#">온라인 구매시스템</a></li>
+            <li><a href="#">고객문의</a></li>
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">FAMILY SITE</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- //footer -->
+    
+</body>
+</html>

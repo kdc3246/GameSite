@@ -1,0 +1,115 @@
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button, input {
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: lightpink;
+}
+
+.selections {
+    margin: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5em;
+    transition: 100ms;
+    margin: 20px;
+}
+
+.selection:hover {
+    transform: scale(2);
+}
+
+.results {
+    margin: 3%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 30fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.result-score {
+    margin-left: .10rem;
+    font-size: 3em;
+    color: #333;
+}
+
+.result-selection {
+    opacity: 0.5;
+    font-size: 2em;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 5em;
+}
+
+/* footer style */
+footer {
+    border-top: 0.5px solid #999;
+    padding: 30px 0;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer .inner {
+    width: 84%;
+    margin: 0 auto;
+}
+footer .inner .ft-logo {
+    float: left;
+    width: 14%;
+    font-size: 2rem;
+    text-shadow: 0px 3px 4px #3a3c4e;
+}
+footer .inner .address {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+footer .inner .address li:first-child {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+footer .inner .address li:last-child {
+    color: #999;
+}
+
+footer .inner .list {
+    float: right;
+    margin-top: 18px;
+}
+footer .inner .list li {
+    float: left;
+    margin-left: 80px;
+}
+footer .inner .list li:last-child {
+    font-weight: 700;
+}
+footer .inner .list li a:hover {
+    color: #ff8342;
+    text-decoration: underline;
+}

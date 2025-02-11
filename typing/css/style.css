@@ -1,0 +1,148 @@
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button, input {
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.game-wrap {
+    width: 600px;
+    height: 500px;
+    border: 3px solid #3b5999;
+    margin: 100px auto 200px auto;
+    box-sizing: border-box;
+}
+
+.game-header {
+    width: 100%;
+    margin: 00px auto 0;
+    padding: 10px 0;
+    background: #3b5999;
+    color: #fff;
+    box-sizing: border-box;
+
+    text-align: center;
+    font-size: 24px;
+}
+
+.word-display {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 80px;
+    color: #3b5999;
+    text-align: center;
+}
+
+.word-input-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.word-input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+}
+
+.game-info-wrap {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.game-info-wrap .game-info {
+    width: 360px;
+    margin: 0 auto;
+}
+
+
+.game-info-wrap .game-info div {
+    float: left;
+    width: 170px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.time, .score {
+    font-size: 30px;
+}
+
+.game-info-wrap .btn-wrap {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 30px;
+    background: #3b5999;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+}
+
+.loading {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* footer style */
+footer {
+    border-top: 0.5px solid #999;
+    padding: 30px 0;
+}
+footer .inner {
+    width: 84%;
+    margin: 0 auto;
+}
+footer .inner .ft-logo {
+    float: left;
+    width: 14%;
+    font-size: 2rem;
+    text-shadow: 0px 3px 4px #3a3c4e;
+}
+footer .inner .address {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+footer .inner .address li:first-child {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+footer .inner .address li:last-child {
+    color: #999;
+}
+
+footer .inner .list {
+    float: right;
+    margin-top: 18px;
+}
+footer .inner .list li {
+    float: left;
+    margin-left: 80px;
+}
+footer .inner .list li:last-child {
+    font-weight: 700;
+}
+footer .inner .list li a:hover {
+    color: #ff8342;
+    text-decoration: underline;
+}
